@@ -5,13 +5,15 @@ In simple terms, a Closure is an anonymous function. However, most of the people
 The Closure class in PHP have the special method `bindTo()`. From [documentation](http://php.net/manual/en/closure.bindto.php):
 
 > Closure::bindTo — Duplicates the closure with a new bound object and class scope
-> 
-> [...]
-> 
+>
+> ```php
+> public Closure Closure::bindTo ( object $newthis [, mixed $newscope = "static" ] )
+> ```
+>
 > The “bound object” determines the value $this will have in the function body and the “class scope” represents
 > a class which determines which private and protected members the anonymous function will be able to access.
 > Namely, the members that will be visible are the same as if the anonymous function were a method of the class
-> given as value of the newscope parameter.
+> given as value of the **newscope** parameter.
 
 Then, I can write this:
 
