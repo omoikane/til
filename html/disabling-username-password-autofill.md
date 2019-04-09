@@ -18,12 +18,7 @@ In the specific case of the form for changing the username and password, it is s
 </form>
 ```
 
-### Bonus tip: Last Pass
-
-If your users use [LastPass](https://lastpass.com/), you could also add the `data-lpignore=true` attribute to prevent the autocompleted extension of a field.
-
 ### References:
 
 - [Create Amazing Forms](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/?hl=en#recommended_input_name_and_autocomplete_attribute_values)
 - [Autofill HTML Standard](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill)
-- [How do I prevent LastPass from inserting its form field icon into certain fields on my website?](https://lastpass.com/support.php?cmd=showfaq&id=10512)
